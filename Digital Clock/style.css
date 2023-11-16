@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('Blue\ Gradient\ Abstract\ Watercolor\ Linktree\ Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #name{
+  margin-left: 10px;
+  color: #ffffff;
+  width: 300px;
+  height: 100px;
+  font-size: 25px;
+  
+  }
+  
+  #rectangle {
+    display: flex;
+    width: 440px; 
+    height: 180px; 
+    background-color: #0c0c0c;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  #border{
+    display: flex;
+    width: 480px; 
+    height: 220px; 
+    background-color: #ff0000;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #digital-clock{
+    color: white;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  
