@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="appointments">
+<link rel="stylesheet" type="text/css" th:href="@{/css/appointment.css}">
+
+<meta charset="UTF-8">
+</head>
+<body>
+	<section th:fragment="appointments">
+		<div class="names">
+			<div class="name">Appointment Details :</div>
+		</div>
+
+		<div class="main-div">
+
+			<div class="section">
+				<div class="parts">
+					<select class="selectlocation">
+						<option value="Title" selected>Select Location</option>
+						<option value="mr">Mr</option>
+					</select>
+				</div>
+
+				<div class="parts">
+					<input class="dates" type="date" value="YYYY-MM-DD">
+				</div>
+
+				<div class="parts">
+					<input class="token" type="text" placeholder="Token number">
+				</div>
+			</div>
+
+
+			<div class="section">
+				<div class="parts">
+					<select class="selectlocation">
+						<option value="Title" selected>Select Consultant</option>
+						<option value="mr">Mr</option>
+					</select>
+				</div>
+
+
+				<div class="parts">
+					<input class="token" type="text" placeholder="Doctor-code">
+				</div>
+				<div class="parts">
+					<input class="token" type="text" placeholder="Specilization">
+				</div>
+			</div>
+
+		</div>
+
+
+
+	</section>
+
+
+
+
+</body>
+</html>

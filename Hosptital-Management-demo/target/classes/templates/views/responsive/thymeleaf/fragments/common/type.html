@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="type">
+<link rel="stylesheet" type="text/css" th:href="@{/css/types.css}">
+
+<meta charset="UTF-8">
+</head>
+<body>
+	<section th:fragment="type">
+		<div class="names">
+			<div class="name">Patient details :</div>
+			
+			<div class="selectors" >
+				<label> <input type="radio" name="patientType" value="old">
+					Old Patient
+				</label> <label> <input type="radio" name="patientType" value="new">
+					New Patient
+				</label>
+			</div>
+
+
+		</div>
+
+
+	</section>
+
+
+</body>
+</html>

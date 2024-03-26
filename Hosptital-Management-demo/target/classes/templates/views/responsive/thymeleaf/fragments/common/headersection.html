@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="headersection">
+   <link rel="stylesheet" type="text/css" th:href="@{/css/headersection.css}">
+
+<meta charset="UTF-8">
+</head>
+<body>
+	<header th:fragment="headersection">
+
+		<div class="maindiv">
+			<div style="display: inline-block;">
+				    <a href="#" style="text-decoration: none; margin-left: 30px; align-items: center;">Appointments</a>
+					<a href="#" style="text-decoration: none; margin-left: 30px; align-items: center;">Add Appointment</a> 
+					<a href="#" style="text-decoration: none; margin-left: 30px; align-items: center;">Hospital Services</a>
+					<a href="#" class="links"><img 
+					alt="Print"
+					th:src="@{/images/printing.png}"
+					class= "images"></a>
+					
+					<a href="/#" class="links"><img 
+					alt="search"
+					th:src="@{/images/find.png}"
+					class= "images"></a>
+					
+					<a href="/#" class="links"><img 
+					alt="refresh"
+					th:src="@{/images/refresh-button.png}"
+					class= "images"></a>
+					
+			</div>
+
+			<div style="display: inline-block;">
+				<a href="#" class="links"><img 
+					alt="Questionmark"
+					th:src="@{/images/question-mark.png}"
+					class= "images"> Help</a>
+				<a href="#" class="links"> Patient Management</a>	
+					
+			</div>
+
+
+
+
+		</div>
+
+
+	</header>
+</body>
+</html>

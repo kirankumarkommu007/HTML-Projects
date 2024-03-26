@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+  <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Dynamic Tabs</h2>
+  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#personel">Personel</a></li>
+    <li><a data-toggle="tab" href="#contact">contact</a></li>
+    <li><a data-toggle="tab" href="#fee">fee</a></li>
+    <li><a data-toggle="tab" href="#admission">admission</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="personel" class="tab-pane fade in active">
+      <h3>Personel info</h3>
+      <input type="text" placeholder="name">
+      
+    </div>
+    <div id="contact" class="tab-pane fade">
+      <h3>contact details</h3>
+      <input type="text" placeholder="mobile number">
+    </div>
+    <div id="fee" class="tab-pane fade">
+      <h3>Fee Details</h3>
+            <input type="text" placeholder="Fee ">
+      
+    </div>
+    <div id="admission" class="tab-pane fade">
+      <h3>Admission Details</h3>
+            <input type="text" placeholder="admission details">
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

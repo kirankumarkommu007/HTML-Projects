@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+.main-div{
+	background-color: rgb(195, 252, 250);
+	border-style: groove;
+	width: 80%;
+	margin-left: 2%;
+}
+.parts{
+	display: flex;
+	width: 25%;
+	padding: 10px;
+}
+.section{
+	display: flex;
+}
+.selectlocation{
+	width: 100%;;
+	height: 28px;
+	color: red;
+}
+.dates{
+	width: 100%;;
+	height: 25px;
+
+}
+.feebox-1{
+   width: 100%;
+	height: 25px;
+
+}
+
+.feebox-2{
+   width: 100%;
+	height: 25px;
+
+}

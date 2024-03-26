@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+width: 5%;
+position: fixed;
+}
+
+.content {
+width: 95%;
+margin-top: 0px;
+margin-left: 5%;
+}
+.splitter{
+	display: flex;
+	width: 100%;
+	padding: 2%;
+	
+}
+.splittedsection{
+	display: flex;
+	width: 50%;
+}

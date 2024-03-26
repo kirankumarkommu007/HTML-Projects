@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="section">
+<link rel="stylesheet" type="text/css" th:href="@{/css/section.css}">
+<script th:src="@{/js/calculateAge.js}" defer></script>
+
+
+<meta charset="UTF-8">
+</head>
+<body>
+	<section th:fragment="section">
+
+		<div class="maindivider">
+
+			<div class="detailssection">
+				<div class="inputs">
+					<select class="titleSelect">
+						<option value="Title" selected>Title</option>
+						<option value="mr">Mr</option>
+						<option value="mrs">Mrs</option>
+						<option value="miss">Miss</option>
+						<option value="ms">Ms</option>
+						<option value="dr">Dr</option>
+					</select>
+				</div>
+
+
+				<div class="inputs">
+					<input class="inputboxes" type="text"
+						placeholder="New patient Name">
+				</div>
+				<div class="inputs1">
+					<input class="inputboxes" type="text" placeholder="Last Name">
+				</div>
+
+				<div class="inputs">
+					<select class="titleSelect">
+						<option value="Gender" selected>Gender</option>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+
+						<option value="Not Specified">Not specified</option>
+
+					</select>
+				</div>
+				<div class="inputs">
+
+					<input id="dob" class="Select" type="date" value="YYYY-MM-DD">
+				</div>
+
+
+
+			</div>
+
+			<div class="detailssection">
+
+
+
+				<div class="inputs1">
+					<input id="years" class="smallbox" type="text" placeholder="years">
+				</div>
+
+				<div class="inputs1">
+					<input id="months" class="smallbox" type="text" placeholder="months">
+				</div>
+
+				<div class="inputs1">
+					<input id="days" class="smallbox" type="text" placeholder="days">
+				</div>
+				<div class="inputs">
+					<input class="numbers" type="text" placeholder="Mobile Number">
+				</div>
+
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="relation" selected>Parents/Husbands'name</option>
+						<option value="husband">Husband</option>
+						<option value="Mother">Mother</option>
+						<option value="Father">Father</option>
+						<option value="Brother">Brother</option>
+						<option value="Sister">Sister</option>
+						<option value="gaurdian">Guardian</option>
+					</select>
+				</div>
+
+				<div class="inputs">
+					<input class="inputboxes-2" type="text" placeholder="name">
+				</div>
+
+
+				<div class="inputs1">
+
+					<select class="smallbox-selector">
+						<option value="region" selected>Religion</option>
+						<option value="Hindu">Hindu</option>
+						<option value="Miniority">Miniority</option>
+					</select>
+				</div>
+
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="Marital-Status" selected>Marital Status</option>
+						<option value="Married">Married</option>
+						<option value="Unmarried">Unmarried</option>
+					</select>
+				</div>
+
+
+			</div>
+
+			<div class="detailssection">
+				<div class="inputs">
+					<select class="titleSelect">
+						<option value="indian" selected>Indian</option>
+						<option value="Others">Others</option>
+
+					</select>
+				</div>
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="bloodgroup" selected>Blood Group</option>
+						<option value="AB positive">AB+</option>
+						<option value="O positive">O+</option>
+						<option value="A positive">A+</option>
+						<option value="B positive">B+</option>
+
+					</select>
+				</div>
+
+
+
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="indian" selected>--Select Occupation--</option>
+						<option value="Others">Others</option>
+
+					</select>
+				</div>
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="Andrapradesh" selected>Andrapradesh</option>
+						<option value="Telangana">Telangana</option>
+
+					</select>
+				</div>
+
+				<div class="inputs">
+					<select class="titleSelect-1">
+						<option value="City" selected>Select City</option>
+
+
+					</select>
+				</div>
+
+
+
+
+				<div class="inputs">
+					<input class="inputboxes-2" type="text" placeholder="Village name">
+				</div>
+
+
+
+			</div>
+
+
+			<!-- Line 4 -->
+
+			<div class="detailssection">
+
+				<div class="inputs">
+					<input class="addressbar" type="text" placeholder="Village name">
+				</div>
+				<div class="inputs">
+					<div>
+						<select class="titleSelect-1">
+							<option value="idType" selected>Id Proof</option>
+							<option value="Adhaar">Adhaar</option>
+							<option value="pan">Pan Card</option>
+							<option value="voterid">Voter Id</option>
+							<option value="drivinglicense">drivinglicense</option>
+						</select>
+
+					</div>
+					<div class="inputs2">
+						<select class="titleSelect-1">
+							<option value="idType" selected>Refreal type</option>
+
+						</select>
+
+					</div>
+				</div>
+
+
+
+				<div class="inputs">
+					<div>
+						<input class="inputboxes-2" type="text"
+							placeholder="Enter Id number">
+					</div>
+					<div class="inputs2">
+						<select class="titleSelect-1">
+							<option value="idType" selected>select Organization</option>
+
+						</select>
+
+					</div>
+				</div>
+
+				<div class="inputs">
+					<div id="notificationDiv">
+
+						<input type="checkbox" id="notificationCheckbox"> <label
+							for="notificationCheckbox">Send Notification</label>
+					</div>
+
+					<div class="inputs2">
+						<select class="titleSelect-1">
+							<option value="tarrif" selected>Patient Tarrif</option>
+
+						</select>
+
+					</div>
+				</div>
+
+				<div class="inputs">
+					<div>
+						<input class="inputboxes-2" type="text" placeholder="Health issue">
+					</div>
+				</div>
+
+			</div>
+
+
+
+		</div>
+
+
+
+
+	</section>
+
+
+</body>
+</html>

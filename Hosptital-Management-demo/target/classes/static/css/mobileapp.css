@@ -1,0 +1,25 @@
+
+@charset "UTF-8";
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 5%; 
+}
+
+.content {
+    width: 95%; 
+    margin-top: 20px; 
+}
+
+.appointments-details {
+    display: flex;
+    flex-direction: column; 
+}
+
+.splittedsection {
+    width: 100%; /* Occupy full width */
+    margin-bottom: 20px; /* Add some margin between sections */
+}

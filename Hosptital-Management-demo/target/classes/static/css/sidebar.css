@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.maindiv1 {
+	margin-left:5px;
+	display:inline-block;
+	width: 60px;
+	height: 150vh;
+	background-color: black;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+.images {
+	vertical-align: middle;
+	height: 20px;
+	width: 20px"
+}
+
+.links1 {
+	text-decoration: none;
+	align-items: center;
+
+}
+.iconstyling{
+	padding: 20px;
+	
+}

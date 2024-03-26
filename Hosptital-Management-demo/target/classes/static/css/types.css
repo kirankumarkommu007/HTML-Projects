@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.names{
+	display:flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:30px;
+	justify-content: space-between;
+}
+.name{
+	color: green;
+}
+.selectors{
+	margin-right: 40px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Responsive Example</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/mobileapp.css}">
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<div th:replace="/views/responsive/thymeleaf/fragments/common/sidebar :: sidebar"></div>
+		</div>
+		<div class="content">
+			<div th:replace="/views/responsive/thymeleaf/fragments/common/headersection :: headersection"></div>
+			<div th:replace="/views/responsive/thymeleaf/fragments/common/type :: type"></div>
+			<div th:replace="/views/responsive/thymeleaf/fragments/common/section :: section"></div>
+     
+            <div class="appointments-details">
+				<div th:replace="/views/responsive/thymeleaf/fragments/common/appointements :: appointments"></div>
+				<div th:replace="/views/responsive/thymeleaf/fragments/common/feedetails:: feedetails"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
